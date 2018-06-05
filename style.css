@@ -1,0 +1,61 @@
+body {
+	background-image: url('run.jpg');
+	padding: 20px 3%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+button {
+	padding: 5px 15px;
+	background: #555;
+	margin: 10px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: 700;
+	border: 1px solid #eee;
+	cursor: pointer;
+	
+}
+
+button:hover {
+	background: #ccc;
+}
+
+button:active {
+	background: #fff;
+	color: #000;
+}
+
+#stopwatch {
+	font-size: 70px;
+	margin: 30px;
+	color: #fff;
+	font-weight: 700;
+}
+
+.cont {
+	width: 75%;
+	min-width: 300px;
+	margin: 0 auto;
+	text-align: center;
+	background: rgba(0,0,0,0.9);
+	padding: 30px 30px 0;
+	float: left;
+}
+
+#list {
+	width: 15%;
+	min-width: 150px;
+	margin: 0 auto;
+	font-size: 30px;
+	padding: 15px;
+	list-style: none;
+	text-align: center;
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	line-height: 40px;
+	float: left;
+	/*margin-top: -251px;*/
+	min-height: 201px;
+}
